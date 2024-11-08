@@ -4,6 +4,7 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa'
 
 const Footer = () => {
   return (
+    <div className='bg-[#000]'>
     <div className='mt-12 text-white/70 py-8 container mx-auto border-t border-gray-700 pt-4 px-8 flex justify-between items-center'>
 
         <h1 className='text-2xl font-bold'>Meet Khatu</h1>
@@ -17,6 +18,7 @@ const Footer = () => {
             </a>
         </div>
       
+    </div>
     </div>
   )
 }
