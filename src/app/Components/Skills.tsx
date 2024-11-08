@@ -1,7 +1,7 @@
 "use client"
 import React from 'react'
 import { BiLogoFlask, BiLogoPostgresql } from 'react-icons/bi'
-import { FaCss3Alt, FaHtml5, FaJsSquare, FaNode, FaNodeJs, FaReact } from 'react-icons/fa'
+import { FaCss3Alt, FaHtml5, FaJsSquare, FaNode, FaReact } from 'react-icons/fa'
 import { SiMongodb } from 'react-icons/si'
 
 
