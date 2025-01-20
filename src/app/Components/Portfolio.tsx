@@ -7,8 +7,15 @@ import project from '../Assets/starter-files-nextjs-animated/assets/project.jpg'
 
 const projects = [
     {
-        title: "To-Do List",
+        title: "MyChat",
         desc: "Full Stack Project to implement an easy-to-use user friendly to-do list.",
+        devstack: "MongoDB, Express, React, Node.js",
+        git: "https://github.com/meetkhatu/Messenger",
+        src: project
+    },
+    {
+        title: "To-Do List",
+        desc: "Full Stack Project to implement a real-time chat application and detect and broadcast online presence of users.",
         devstack: "MongoDB, Express, React, Node.js",
         git: "https://github.com/meetkhatu/todolist",
         src: project
