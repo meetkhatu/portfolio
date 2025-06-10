@@ -9,9 +9,9 @@ import profilepic from '../Assets/starter-files-nextjs-animated/assets/5B9010F7-
 const Hero = () => {
   return (
     <div className='py-24 overflow-x-clip bg-[linear-gradient(to_bottom,#000,#2B1942_35%,#8F5C55_60%,#DBAF6E_80%)]'>
-      
+
       <div className='w-full relative'>
-      <div className='absolute rounded-[50%] w-[3000px] h-[1540px] md:h-[1000px] top-[550px] left-[50%] -translate-x-1/2
+        <div className='absolute rounded-[50%] w-[3000px] h-[1640px] md:h-[1000px] top-[550px] left-[50%] -translate-x-1/2
                       bg-[radial-gradient(closest-side,#000_80%,#2B1942)]'></div>
       </div>
 
@@ -25,7 +25,7 @@ const Hero = () => {
         <motion.div
           className='absolute right-[280px] top-[170px]'
           drag
-          dragConstraints={{ left: -200, top: -200, right: 200, bottom: 200 }} 
+          dragConstraints={{ left: -200, top: -200, right: 200, bottom: 200 }}
           whileDrag={{ scale: 1.1 }}
           style={{
             display: 'flex',
@@ -45,7 +45,7 @@ const Hero = () => {
         <motion.div
           className="absolute left-[280px] top-[170px]"
           drag
-          dragConstraints={{ left: -200, top: -200, right: 200, bottom: 200 }} 
+          dragConstraints={{ left: -200, top: -200, right: 200, bottom: 200 }}
           whileDrag={{ scale: 1.1 }}
           style={{
             display: 'flex',
@@ -61,16 +61,16 @@ const Hero = () => {
             className='hidden md:block'
             draggable='false' />
         </motion.div>
-      
 
-      <p className='text-center text-xl max-w-[500px] mx-auto mt-8 text-white/80'>
-        I am a full-stack web developer focused on creating websites that provide the best experience for users.
-      </p>
 
-      <Image 
-      src={profilepic}
-      alt='profile picture'
-      className=' h-auto w-auto mx-auto'/>
+        <p className='text-center text-xl max-w-[500px] mx-auto mt-8 text-white/80'>
+          I am a full-stack web developer focused on creating websites that provide the best experience for users.
+        </p>
+
+        <Image
+          src={profilepic}
+          alt='profile picture'
+          className=' h-[200px] w-[150px] mx-auto' />
       </div>
     </div>
   )
