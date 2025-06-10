@@ -7,31 +7,24 @@ import project from '../Assets/starter-files-nextjs-animated/assets/project.jpg'
 
 const projects = [
     {
+        title: "Expense Tracker",
+        desc: "A MERN stack expense tracker web app where users can manage income, expenses, and balance. Visualize data with bar, line, and pie charts. Export transactions to Excel. All users and API routes are secured with JWT-based authentication.",
+        devstack: "MongoDB, Express, React, Node.js",
+        git: "https://github.com/meetkhatu/expense-tracker",
+        src: project
+    },
+    {
         title: "MyChat",
-        desc: "Full Stack Project to implement an easy-to-use user friendly to-do list.",
+        desc: "Developed a real-time chat app using the MERN stack with Socket.io for bidirectional communication and online presence detection. Secured API routes with JWT-based authentication and implemented token-based login for user sessions.",
         devstack: "MongoDB, Express, React, Node.js",
         git: "https://github.com/meetkhatu/Messenger",
         src: project
     },
     {
-        title: "To-Do List",
-        desc: "Full Stack Project to implement a real-time chat application and detect and broadcast online presence of users.",
-        devstack: "MongoDB, Express, React, Node.js",
-        git: "https://github.com/meetkhatu/todolist",
-        src: project
-    },
-    {
-        title: "E-Commerce Website",
-        desc: "Frontend React Project to develop an E-Commerce Website and understand how to implement various functionalities such as an Order Cart and JWT Authentication for User Login.",
-        devstack: "MongoDB, Express, React, Node.js",
-        git: "https://github.com/neelprajapati12/E-Commerce-Website",
-        src: project
-    },
-    {
-        title: "CRUD Flask Application",
-        desc: "Simple CRUD application to understand the implementation of Flask in Backend.",
-        devstack: "Flask, PostgreSQL",
-        git: "https://github.com/meetkhatu/CRUD-Flask",
+        title: "HireQuest",
+        desc: "A frontend-only React web app for an online job portal with job search by role and location, filters for part-time, full-time, and remote jobs, editable user profiles(image, name, etc.), and smooth UI animations for a seamless experience.",
+        devstack: "React",
+        git: "https://github.com/meetkhatu/HireQuest",
         src: project
     },
     {
