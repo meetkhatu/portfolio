@@ -2,8 +2,10 @@
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 import React from 'react'
-import project from '../Assets/starter-files-nextjs-animated/assets/project.jpg'
-
+import ExpenseTracker from '../Assets/starter-files-nextjs-animated/assets/expense-tracker.png'
+import MyChat from '../Assets/starter-files-nextjs-animated/assets/mychat.png'
+import HireQuest from '../Assets/starter-files-nextjs-animated/assets/HireQuest.png'
+import BookStop from '../Assets/starter-files-nextjs-animated/assets/Bookstop.png'
 
 const projects = [
     {
@@ -11,28 +13,28 @@ const projects = [
         desc: "A MERN stack expense tracker web app where users can manage income, expenses, and balance. Visualize data with bar, line, and pie charts. Export transactions to Excel. All users and API routes are secured with JWT-based authentication.",
         devstack: "MongoDB, Express, React, Node.js",
         git: "https://github.com/meetkhatu/expense-tracker",
-        src: project
+        src: ExpenseTracker
     },
     {
         title: "MyChat",
         desc: "Developed a real-time chat app using the MERN stack with Socket.io for bidirectional communication and online presence detection. Secured API routes with JWT-based authentication and implemented token-based login for user sessions.",
         devstack: "MongoDB, Express, React, Node.js",
         git: "https://github.com/meetkhatu/Messenger",
-        src: project
+        src: MyChat
     },
     {
         title: "HireQuest",
         desc: "A frontend-only React web app for an online job portal with job search by role and location, filters for part-time, full-time, and remote jobs, editable user profiles(image, name, etc.), and smooth UI animations for a seamless experience.",
         devstack: "React",
         git: "https://github.com/meetkhatu/HireQuest",
-        src: project
+        src: HireQuest
     },
     {
         title: "BookStop",
         desc: "Frontend React Project to develop a frontend application using React.js. The project includes understanding and testing APIs, implementing UI pages and dynamically loading data from APIs.",
         devstack: "ReactJS",
         git: "https://github.com/meetkhatu/Bookstop",
-        src: project
+        src: BookStop
     }
 ]
 const Portfolio = () => {
@@ -66,7 +68,7 @@ const Portfolio = () => {
                             </div>
 
                             <div className='flex justify-center items-center'>
-                                <Image src={project.src} alt={project.title} className='h-[350px] w-[500px] object-cover border rounded border-gray-700' />
+                                <Image src={project.src} alt={project.title} className='h-auto w-auto object-cover border rounded border-gray-700' />
                             </div>
 
                         </motion.div>
